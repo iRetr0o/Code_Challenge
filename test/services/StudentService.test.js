@@ -26,6 +26,6 @@ describe("Prueba al StudentService", () => {
             {name: "Partnert4", haveCertification: false, credits: 500}
         ]);
         const studentCredits = StudentService.filterByCredits(students);
-        expect(studentCredits.length).toBe(3);
+        expect(studentCredits.length).toBe(2);
     });
 });
