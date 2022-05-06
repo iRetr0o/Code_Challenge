@@ -16,4 +16,8 @@ describe("Prueba al StudentController", () => {
             "haveCertification": false
         });
     });
+    test("Regresando lista de emails de aquellos que tengan certificación", () => {
+        const partnersEmails = StudentController.getPartnersEmailsCertification();
+        expect(partnersEmails.length).toBe(20);
+    });
 });
