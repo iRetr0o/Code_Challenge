@@ -20,4 +20,8 @@ describe("Prueba al StudentController", () => {
         const partnersEmails = StudentController.getPartnersEmailsCertification();
         expect(partnersEmails.length).toBe(29);
     });
+    test("Regresando estudiantes que tengan 500 creditos", () => {
+        const partnerCredits = StudentController.getPartnersByCredits();
+        expect(partnerCredits.length).toEqual(25);
+    });
 });
