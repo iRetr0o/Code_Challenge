@@ -18,6 +18,6 @@ describe("Prueba al StudentController", () => {
     });
     test("Regresando lista de emails de aquellos que tengan certificación", () => {
         const partnersEmails = StudentController.getPartnersEmailsCertification();
-        expect(partnersEmails.length).toBe(20);
+        expect(partnersEmails.length).toBe(29);
     });
 });
