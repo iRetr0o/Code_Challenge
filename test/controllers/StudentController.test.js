@@ -22,6 +22,6 @@ describe("Prueba al StudentController", () => {
     });
     test("Regresando estudiantes que tengan 500 creditos", () => {
         const partnerCredits = StudentController.getPartnersByCredits();
-        expect(partnerCredits.length).toEqual(25);
+        expect(partnerCredits.length).toEqual(27);
     });
 });
