@@ -22,7 +22,7 @@ graph TD;
 ```
 + **Reader:** Se encarga de leer un archvio y analizarlo como JSON, transformando el valor producido por el análisis.
 + **StudentService:** Almacena todas las funciones o metodos necesarios para realizar los requerimientos (Regresar una lista, filtrar por certificado, filtrar por creditos).
-+ **StudentController:** Llama a los metodos que utiliza el*StudenService* para aplicarlos a la base de datos del *Reader*.
++ **StudentController:** Llama a los metodos que utiliza el *StudenService* para aplicarlos a la base de datos del *Reader*.
 + **Server:** Nos ayuda a exponer e interconectar nuestra aplicación.
 
 ## ¿Cómo funciona esta API?
