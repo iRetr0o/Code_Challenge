@@ -6,9 +6,11 @@ Las dependencias utilizadas para este proyecto son:
 
 | Nombre  | Versión | Documentación | 
 | :------------: | :------------: | :------------: |
+| Node | 16.14.2 | <a href="https://nodejs.org/docs/latest-v16.x/api/index.html" target="_blank"><img src="https://img.shields.io/badge/🔗 Node-Documentation-green?style=for-the-badge"></a> |
 | Jest | 27.5.1  | <a href="https://jestjs.io/docs/27.x/getting-started" target="_blank"><img src="https://img.shields.io/badge/Jest-Documentation-brightgreen?style=for-the-badge&logo=jest"></a> |
 | Express | 4.18.1 | <a href="https://expressjs.com/en/4x/api.html" target="_blank"><img src="https://img.shields.io/badge/Express-Documentation-lightgray?style=for-the-badge&logo=express"></a> |
-| ESLint | 8.14.0 | <a href="https://expressjs.com/en/4x/api.html" target="_blank"><img src="https://img.shields.io/badge/Express-Documentation-purple?style=for-the-badge&logo=ESLint"></a> |
+| ESLint | 8.14.0 | <a href="https://expressjs.com/en/4x/api.html" target="_blank"><img src="https://img.shields.io/badge/ESLint-Documentation-purple?style=for-the-badge&logo=ESLint"></a> |
+- **Node**: Se utilizo la versión mas estable que en ese momento era la 16.14.2, actualmente ya esta disponible la 16.15.0.
 - **Jest**: La versión más actual no es compatible con el workflow de GitHub Actions, por lo que se optó usar la version 27.5.1.
 - **Express**: Las versiones anteriores express las considera obsoletas por lo que es necesario usar la más actual.
 - **ESLint**: La versión más reciente tiene funcionalidades para mejor formateo de código.
@@ -61,3 +63,5 @@ Nos regresa:
 
 En resumen:
 <img src="https://user-images.githubusercontent.com/17634377/165870375-fe5a730a-eada-4abe-ac9c-42334e003b18.png" alt="Resumen de la practica">
+
+Puedes clonar este repositorio haciendole un fork, y agregando las dependencias (puedes hacerlo solamente escribiendo `npm install`)
