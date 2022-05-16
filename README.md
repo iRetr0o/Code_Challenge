@@ -1,6 +1,15 @@
 # Code_Challenge
 Creación de una API de los estudiantes de VIsual Partner Ship.
 
+## ¿Cómo instalar las dependencias?
+Una vez que ya le diste `fork` o descargaste el repositorio utilizas el comando `npm install` en tu terminal o linea de comandos para instalar las dependencias que se utilizaron para este proyecto.
+
+### Comandos:
+- `npm test 'ruta-del-archivo'`: Nos permite comprobar el estado de la prueba de nuestro archivo .test.js.
+- `npm run linter`: Muestra los errores de sintaxis que tienen los diferentes archivos.
+- `npm run linter-fix`: Corrige los errores de sintaxis que tenemos en nuestros archivos.
+- `npm run server`: Pone en marcha nuestro servidor para consultar las diferentes rutas.
+
 ## Dependencias
 Las dependencias utilizadas para este proyecto son:
 
@@ -14,6 +23,7 @@ Las dependencias utilizadas para este proyecto son:
 - **Jest**: La versión más actual no es compatible con el workflow de GitHub Actions, por lo que se optó usar la version 27.5.1.
 - **Express**: Las versiones anteriores express las considera obsoletas por lo que es necesario usar la más actual.
 - **ESLint**: La versión más reciente tiene funcionalidades para mejor formateo de código.
+
 
 ## Componetes
 ```mermaid
@@ -37,31 +47,27 @@ Una API (interfaz de programación de aplicaciones) es un contrato que permite a
 - Cursos previos
 - Certificación
 
-Las rutas que podemos consultar una vez activamos el server podemos verlas en el archivo [server.js](https://github.com/iRetr0o/Code_Challenge/blob/main/lib/server.js):
-##### Ruta para consultar todos los estudiantes
+Las rutas que podemos consultar una vez activamos el server podemos verlas en el archivo [server.js](https://github.com/iRetr0o/Code_Challenge/blob/main/lib/server.js).
 
-<p align="center">
-    localhost:3000/v1/students
-</p>
+Una vez activamos el servidor con el comando `npm run server` en la consola nos mostrara el puerto en el que esta corriendo que en este caso es el puerto `3000`, con esto podremos entrar a la ruta `localhost:3000` y nos mostrara un pequeño mensaje de que ya esta activado.
+#### Ruta para consultar todos los estudiantes
+`localhost:3000/v1/students`
 
-Nos regresa:
+Nos regresa todos los estudiantes que se encuentran en la base de datos:
 <img src="./images/Students.png">
 
-##### Ruta para consultar los emails de los estudiantes que tienen certificado
+#### Ruta para consultar los emails de los estudiantes que tienen certificado
+`localhost:3000/v1/students/emails`
 
-<p align="center">localhost:3000/v1/students/emails</p>
-
-Nos regresa:
+Nos regresa una lista de emails de aquellos estudiantes que en apartado de 'credits' tienen el valor de `true`:
 <img src="./images/Emails.png">
 
-##### Ruta para consultar los estudiantes que tienen más de 500 creditos
+#### Ruta para consultar los estudiantes que tienen más de 500 creditos
+`localhost:3000/v1/students/credits`
 
-<p align="center">localhost:3000/v1/students/credits</p>
-
-Nos regresa:
+Nos regresa los estudiantes que en el apartado de 'credits' tienen mas 500:
 <img src="./images/Creditos.png">
 
-En resumen:
+En resumen este reposirotiro funciona de la siguiente manera:
 <img src="https://user-images.githubusercontent.com/17634377/165870375-fe5a730a-eada-4abe-ac9c-42334e003b18.png" alt="Resumen de la practica">
-
-Puedes clonar este repositorio haciendole un fork, y agregando las dependencias (puedes hacerlo solamente escribiendo `npm install`)
+Imagen realizada por: **@visualpartnetship (@carlogilmar)**
