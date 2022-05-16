@@ -4,11 +4,13 @@ Creación de una API de los estudiantes de VIsual Partner Ship.
 ## ¿Cómo instalar las dependencias?
 Una vez que ya le diste `fork` o descargaste el repositorio utilizas el comando `npm install` en tu terminal o linea de comandos para instalar las dependencias que se utilizaron para este proyecto.
 
-### Comandos:
+### Comandos automatizados:
 - `npm test 'ruta-del-archivo'`: Nos permite comprobar el estado de la prueba de nuestro archivo .test.js.
 - `npm run linter`: Muestra los errores de sintaxis que tienen los diferentes archivos.
 - `npm run linter-fix`: Corrige los errores de sintaxis que tenemos en nuestros archivos.
 - `npm run server`: Pone en marcha nuestro servidor para consultar las diferentes rutas.
+
+Puedes consultar la lista de comandos en el [package.json](https://github.com/iRetr0o/Code_Challenge/blob/main/package.json) en el apartado de scripts.
 
 ## Dependencias
 Las dependencias utilizadas para este proyecto son:
