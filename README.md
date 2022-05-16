@@ -49,6 +49,8 @@ Una API (interfaz de programación de aplicaciones) es un contrato que permite a
 - Cursos previos
 - Certificación
 
+Tenemos una [base de datos](https://github.com/iRetr0o/Code_Challenge/blob/main/visualpartners.json) en formato `json` de todos los estudiantes que estan en Visual Partner ship, mediante el archivo [StudentController](https://github.com/iRetr0o/Code_Challenge/blob/main/test/controllers/StudentController.test.js) leemos la base de datos para despues regresarla mediante las rutas que definimos en el servidor.
+
 Las rutas que podemos consultar una vez activamos el server podemos verlas en el archivo [server.js](https://github.com/iRetr0o/Code_Challenge/blob/main/lib/server.js).
 
 Una vez activamos el servidor con el comando `npm run server` en la consola nos mostrara el puerto en el que esta corriendo que en este caso es el puerto `3000`, con esto podremos entrar a la ruta `localhost:3000` y nos mostrara un pequeño mensaje de que ya esta activado.
