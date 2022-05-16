@@ -1,5 +1,9 @@
 # Code Challenge
 Creación de una API de los estudiantes de VIsual Partner Ship.
+#### Requerimientos:
+- Habilitar un endpoint para consultar todos los estudiantes con todos sus campos.
+- Habilitar un endpoint para consultar los emails de todos los estudiantes que tengan certificación haveCertification.
+- Habilitar un endpoint para consultar todos los estudiantes que tengan credits mayor a 500.
 
 ## ¿Cómo instalar las dependencias?
 Una vez que ya le diste `fork` o descargaste el repositorio utilizas el comando `npm install` en tu terminal o linea de comandos para instalar las dependencias que se utilizaron para este proyecto.
