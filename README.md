@@ -1,4 +1,4 @@
-# Code_Challenge
+# Code Challenge
 Creación de una API de los estudiantes de VIsual Partner Ship.
 
 ## ¿Cómo instalar las dependencias?
