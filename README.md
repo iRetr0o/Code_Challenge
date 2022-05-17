@@ -8,7 +8,7 @@ Creación de una API de los estudiantes de VIsual Partner Ship.
 ## ¿Cómo instalar las dependencias?
 Una vez que ya le diste `fork` o descargaste el repositorio utilizas el comando `npm install` en tu terminal o linea de comandos para instalar las dependencias que se utilizaron para este proyecto.
 
-### Comandos automatizados:
+### Comandos habilitados:
 - `npm test 'ruta-del-archivo'`: Nos permite comprobar el estado de la prueba de nuestro archivo .test.js.
 - `npm run linter`: Muestra los errores de sintaxis que tienen los diferentes archivos.
 - `npm run linter-fix`: Corrige los errores de sintaxis que tenemos en nuestros archivos.
