@@ -25,7 +25,7 @@ Las dependencias utilizadas para este proyecto son:
 | Express | 4.18.1 | <a href="https://expressjs.com/en/4x/api.html" target="_blank"><img src="https://img.shields.io/badge/Express-Documentation-lightgray?style=for-the-badge&logo=express"></a> |
 | ESLint | 8.14.0 | <a href="https://expressjs.com/en/4x/api.html" target="_blank"><img src="https://img.shields.io/badge/ESLint-Documentation-purple?style=for-the-badge&logo=ESLint"></a> |
 
-Versión de Node: [16.14.2](https://nodejs.org/docs/latest-v16.x/api/index.html).
+Versión de Node: <a href="https://nodejs.org/docs/latest-v16.x/api/index.html" target="_blank">16.14.2</a>.
 
 - **Node**: Se utilizo la versión mas estable que en ese momento era la 16.14.2, actualmente ya esta disponible la 16.15.0.
 - **Jest**: La versión más actual no es compatible con el workflow de GitHub Actions, por lo que se optó usar la version 27.5.1.
